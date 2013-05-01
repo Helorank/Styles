@@ -25,21 +25,6 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.content {
-  position: absolute;
-}
-#splash {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  z-index: -1;
-}
-#splash img {
-  display: block;
-  max-width: none;
-  margin-left: auto;
-  margin-right: auto;
-}
 article,
 aside,
 details,
@@ -208,6 +193,21 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+}
+.content {
+  position: absolute;
+}
+#splash {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  z-index: -1;
+}
+#splash img {
+  display: block;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 .helogreen {
   color: #6ade84;
