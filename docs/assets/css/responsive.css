@@ -782,6 +782,9 @@
   }
 }
 @media (max-width: 767px) {
+  #signup {
+    padding-right: 15px;
+  }
   .container {
     padding-left: 15px;
     padding-right: 15px;
