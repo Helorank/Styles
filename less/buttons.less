@@ -12,6 +12,7 @@
   .ie7-inline-block();
   padding: 4px 12px;
   margin-bottom: 0; // For input.btn
+  font-family: @headingsFontFamily;
   font-size: @baseFontSize;
   line-height: @baseLineHeight;
   text-align: center;
@@ -164,6 +165,14 @@ input[type="button"] {
 // Inverse appears as dark gray
 .btn-inverse {
   .buttonBackground(@btnInverseBackground, @btnInverseBackgroundHighlight);
+}
+// Twitter themed button
+.btn-twitter {
+  .buttonBackground(@btnTwitterBackground, @btnTwitterBackgroundHighlight);
+}
+// Facebook themed button
+.btn-facebook {
+  .buttonBackground(@btnFacebookBackground, @btnFacebookBackgroundHighlight);
 }
 
 
