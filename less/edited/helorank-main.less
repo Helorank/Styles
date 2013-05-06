@@ -167,6 +167,15 @@
   .box-shadow(0 4px 4px rgba(0,0,0,.065));
 }
 
+#dashboard-profile {
+  height: 100%;
+}
+
+#gamefeed {
+  border-left: 1px solid @grayLighter;
+  padding-left: 10px;
+}
+
 #dashboard-profile h3 {
   margin: 0 0 20px 0;
 }
@@ -248,14 +257,17 @@
   color: #333;
   .border-radius(@borderRadiusLarge);
   margin-bottom: 15px;
+  #gradient > .vertical(@white, darken(@white, 2%));
+  .box-shadow(0 2px 2px rgba(0,0,0,.065));
 }
+
 #stories small {
   color: #ccc;
 }
 
 #stories .accordion-heading:focus,
 #stories .accordion-heading:hover {
-  background-color: @helogreen;
+  #gradient > .vertical(@helogreen, darken(@helogreen, 15%));
   color: @white;
   small {
   color: @white;
@@ -283,7 +295,6 @@
 
 #stories .summary {
   padding: 5px 5px 5px 0;
-  font-size: @fontSizeLarge;
 }
 
 #stories .arrow-up {
